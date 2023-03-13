@@ -14,5 +14,5 @@ if __name__ == '__main__':
         print("{:d} arguments:".format(argv_len))
         number = 1
         for argument in sys.argv:
-                print("{:d}: {}".format(number, argument))
-                number += 1
+            print("{:d}: {}".format(number, argument))
+            number += 1
